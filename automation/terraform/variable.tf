@@ -4,6 +4,12 @@ variable "prefix" {
   default     = "codeonline"
 }
 
+variable "inventory_path" {
+  type        = string
+  description = "inventory path"
+  default     = "~./"
+}
+
 variable "zone" {
   type        = string
   description = "gcp zone"

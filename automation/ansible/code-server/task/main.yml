@@ -1,0 +1,10 @@
+---
+- name: Start up script
+  hosts: all
+  become: true
+  tasks:
+    - name: Copying file
+      copy:
+        src: /srv/myfiles/foo.conf
+        dest: /etc/foo.conf
+        mode: 0777
