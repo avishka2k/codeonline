@@ -1,4 +1,15 @@
+import { GoogleLogin } from '@react-oauth/google';
+import { jwtDecode } from "jwt-decode";
+import { useState } from 'react';
+
 export default function Signin() {
+
+  
+  const [loginData, setLoginData] = useState(
+    localStorage.getItem('loginData')
+      ? JSON.parse(localStorage.getItem('loginData'))
+      : null
+  )
     return (
       <>
         <div className="flex min-h-full h-screen flex-1 flex-col justify-center px-6 py-12 lg:px-8">
@@ -53,7 +64,7 @@ export default function Signin() {
                   />
                 </div>
               </div>
-  
+         
               <div>
                 <button
                   type="submit"
@@ -62,6 +73,25 @@ export default function Signin() {
                   Sign in
                 </button>
               </div>
+              {loginData ? (
+            <div>
+              <h3>You logged in as {loginData.email}</h3>
+           
+            </div>
+          ) : (
+            <GoogleLogin
+                onSuccess={(credentialResponse) => {
+                  var decode = jwtDecode(credentialResponse.credential)
+                  console.log(decode);
+                  setLoginData(decode);
+                  localStorage.setItem('loginData', JSON.stringify(decode));
+                }}
+                onError={() => {
+                  console.log('Login Failed');
+                }}
+                />
+          )}
+              
             </form>
   
             <p className="mt-10 text-center text-sm text-gray-500">

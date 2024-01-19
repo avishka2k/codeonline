@@ -7,6 +7,7 @@ const navigation = [
   { name: 'Projects', href: '#', current: false },
   { name: 'About', href: '/about', current: false },
   { name: 'Contact', href: '/contact', current: false },
+  { name: 'Signin', href: '/signin', current: false },
 ]
 
 function classNames(...classes) {
