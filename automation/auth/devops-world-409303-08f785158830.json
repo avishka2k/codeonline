@@ -1,13 +1,13 @@
 {
   "type": "service_account",
   "project_id": "devops-world-409303",
-  "private_key_id": "08f78515883005d67111a149499a22737012e128",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDl4eBvhh03h85W\n3D/O0dB1kcOyHl53fCrrFPLJicDB1tJil9UOOUcuj0dEe9UZ6Xibt7DjEHgJLwc+\nXAeRKkQnjCoRDHbJ/AdiB8sotfxvNOOIyr0LGdBKTbxiwKnxIXtL+BAdYhRtPQS8\nnzS1fVFPSzLvsUUfip/HBPMO2v9Mw7pn0hhGOOr7zwhqiEBJnEk0haIwuqgPR67v\nhk61VvlL0xzvjkOZgdXKRQiXFESfYfdLSTcb4CRUHYpUc1Y0JVZSqSa/aJuKSdMN\n3C8bqPGwLHLxhLaM9fJNxcBzvciOca87gfQtJyLxRmZLFtkioBTjpiW5gmqC8ZDG\nip9loXf3AgMBAAECggEACm/kcDvPFMfaMvBiB0JYbBYXo/0j/dnJ2w2C7mqOMV7P\nA4HwPuqT1EXWDwJuTPRgMPW4lr6XLJeRhR/Jiio4mPEQseB2fjounaFL9Ie6s9Pb\nZskJpzjfT5hS7srfjF6gSfUzyhm7YrBMCEJUMs9DQ03fPKm4QTPaiD8tx+VihPoh\n8ocmGAlV/nwqNqWzTaljbHgFgl78SU9ewYzzSR7Gq58hYM+wap4sNcyNE88M2/xJ\n69gFVEuZlRd8f2cUrZa75g8Mz02CJwWuaTDzq0UiuVxyueS59DD+BXkjs46dK3G8\nSP91qzKJhl2uRZJwhzBZXqrxgNunQwf8Nn7eNkLgBQKBgQD3ld9E4bQRlJy/23FT\n72AukSIbSx4yDnCPug9yzmOf86lxASvrdojsTSxKnQkQt3eX+KGMX1nua4CiOtUz\n/YdTbBwmoDMCwlWncPw2gKCBt/+G8Eij9gFsophNCkJEO73S2kfW3YZHdBBQcuqL\n6WfgH5hKR6MHFJm4L2fhOjMlAwKBgQDtsfpX6kST5sYphCCbRoQb2uL9uMlxuBVc\n/U7dyfN+/nHFDwdtfXl27yhpSVCei18Aivhwl4juZXH3jZZiKp9ul6kEOKYMtj6j\n5uuvHJ6zHut76eFGWO2I8OVWcav6iA2TncZ3w6xS9VfBrfRInArcMLvOpH3FMey1\n1WAym7NM/QKBgQCxo7jURVTboFNvXNXNMV1DTCK6joUVyUJ9/TOEXg0hAMS8LekD\nQsMvOJfk2RNeCSUnxt6yRt/RrxRWUfwTF373HgR8ukifXCv0vZ5YxKVlLU2L1e9o\npOOUvHymGgw9xNeH59HPmpXzwpTKBAnBZTCAoGq2MPwJ4oAApRLViNqVXQKBgF9+\n889CZY7uVorzdI4txIHUbQH2ragshxi3BGqC6nsJCvha02cf1B7+csPqGqO35tE3\nBB1oJDFzPFhy4ApMiYVLFTKG999/kKcU7XeLDg90yrMcAc/bhoNQFTOns6qR4rJ9\n3vDbAm7J9xnvI4fQeWSBh9K7r3P8XNepBF8QwvaZAoGAas/et7m/9rQa3ylbazEN\n5+O7ZgqJk2NQD0PxlHfdEWiyCphXD42dkD81cucUevl2nF8DiSgVzx8/eus6rwSz\nwKDunsQFv/e0UJBn9B35521E0Ac26eZ5ELBLqPQeneLBk9RMCla0lDmAip7JKJJN\nT9cSq/cpcwrC6aczGfReu54=\n-----END PRIVATE KEY-----\n",
-  "client_email": "terraform-gcp@devops-world-409303.iam.gserviceaccount.com",
-  "client_id": "117811846841140210198",
+  "private_key_id": "",
+  "private_key": "",
+  "client_email": "",
+  "client_id": "",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-gcp%40devops-world-409303.iam.gserviceaccount.com",
+  "client_x509_cert_url": "",
   "universe_domain": "googleapis.com"
 }
